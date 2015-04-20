@@ -1,5 +1,5 @@
 " stolen from github.com/gsf/dotfiles.git
-"call pathogen#infect()
+" call pathogen#infect()
 
 filetype plugin indent on
 syntax on

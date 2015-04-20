@@ -1,0 +1,16 @@
+[user]
+	name = Nabil Kashyap
+	email = n@nabilk.com
+  username = bulbil
+[core]
+    pager =
+    excludesfile = ~/.gitignore
+[alias]
+    ci = commit
+    co = checkout
+    rv = remote -v
+    st = status -sb
+    ready = rebase -i @{u}
+    tree = log --oneline --graph --decorate --all --color
+[push]
+    default = current

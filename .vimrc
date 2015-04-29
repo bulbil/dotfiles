@@ -15,7 +15,7 @@ set smarttab
 set sw=2
 set ts=2
 set ruler
-set nowrap
+" set nowrap
 set backspace=indent,eol,start
 set bg=light
 

@@ -1,10 +1,13 @@
 [user]
-	name = Nabil Kashyap
-	email = n@nabilk.com
-  username = bulbil
-[core]
-    pager =
-    excludesfile = ~/.gitignore
+        name = Nabil Kashyap
+        username = bulbil
+        email = n@nabilk.com
+[merge]
+        tool = vscode
+[diff] 
+        tool = vscode
+[difftool "vscode"]
+        cmd = code --wait --diff $LOCAL $REMOTE
 [alias]
     ci = commit
     co = checkout
